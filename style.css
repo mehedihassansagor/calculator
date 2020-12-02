@@ -1,0 +1,60 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.head{
+	height: 70px;
+	width: 250px;
+	text-align: right;
+	font-weight: bold;
+	padding: 0 5px;
+	font-size: 32px;
+	letter-spacing: 2px;
+}
+.bth{ 
+	height: 60px;
+	width: 60px;
+	background-color: black;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+.cal{
+	text-align: center;
+	margin-top: 20px;
+}
+.card{
+	margin: 0 auto;
+	max-width: 350px;
+	text-align: center;
+	margin-top: 20px;
+	box-shadow: 0 4px 8px black;
+	transition: 0.3s;
+	font-size: 0px;
+}
+.card:hover{
+	box-shadow: 0 16px 32px black;
+}
+.bth:hover{ 
+	background-color: yellow;
+}
+.extra-col{
+	height: 60px;
+	width: 60px;
+	background-color: indigo;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+.extra-col:hover{
+	background-color: green;
+}
+.last-col{
+	height: 60px;
+	width: 60px;
+	background-color: violet;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
